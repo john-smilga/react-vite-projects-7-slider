@@ -264,7 +264,7 @@ ul {
   display: flex;
   /* must be height */
   height: 450px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .person-img {
   border-radius: 50%;
