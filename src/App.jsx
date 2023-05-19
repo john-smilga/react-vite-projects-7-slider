@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 import { FaQuoteRight } from 'react-icons/fa';
-import data from './data';
+import { list } from './data';
 function App() {
-  const [people, setPeople] = useState(data);
+  const [people, setPeople] = useState(list);
   const [currentPerson, setCurrentPerson] = React.useState(0);
 
   const nextSlide = () => {
